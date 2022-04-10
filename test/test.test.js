@@ -3,4 +3,4 @@
 const assert = require('assert');
 
 
-assert.equal(1, 1)
+assert.equal(e, 1)
