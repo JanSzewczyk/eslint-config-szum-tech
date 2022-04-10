@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-szum-tech",
+  "name": "@szum-tech/eslint-config-szum-tech",
   "version": "0.0.1",
   "description": "ESLint configuration for TypeScript projects",
   "main": "index.js",
