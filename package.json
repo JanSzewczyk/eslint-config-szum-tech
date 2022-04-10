@@ -1,0 +1,26 @@
+{
+  "name": "@szum-tech/eslint-config-szum-tech",
+  "version": "0.0.1",
+  "description": "ESLint configuration for TypeScript projects",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanSzewczyk/eslint-config-szum-tech.git"
+  },
+  "keywords": [
+    "eslint",
+    "react.js",
+    "eslintconfig",
+    "szum-tech"
+  ],
+  "author": "Jan Szewczyk (Szum-Tech)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JanSzewczyk/eslint-config-szum-tech/issues"
+  },
+  "homepage": "https://github.com/JanSzewczyk/eslint-config-szum-tech#readme"
+}
