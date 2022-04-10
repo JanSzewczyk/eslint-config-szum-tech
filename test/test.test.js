@@ -2,5 +2,4 @@
 
 const assert = require('assert');
 
-
-assert.equal(e, 1)
+assert.strictEqual(1, 1)
