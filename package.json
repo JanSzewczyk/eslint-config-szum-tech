@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "ESLint configuration for TypeScript projects",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "compile": "tsc",
-    "test": "node test/test.js"
+    "test": "node test/test.test.js"
   },
   "repository": {
     "type": "git",
