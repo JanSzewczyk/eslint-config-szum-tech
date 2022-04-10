@@ -1,10 +1,9 @@
 {
   "name": "@szum-tech/eslint-config-szum-tech",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "ESLint configuration for TypeScript projects",
   "main": "index.js",
   "scripts": {
-    "compile": "tsc",
     "test": "node test/test.js"
   },
   "repository": {
