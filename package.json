@@ -1,34 +1,36 @@
 {
-  "name": "@szum-tech/eslint-config-szum-tech",
-  "version": "0.1.2",
+  "author": "Jan Szewczyk (Szum-Tech)",
+  "bugs": {
+    "url": "https://github.com/JanSzewczyk/eslint-config-szum-tech/issues"
+  },
   "description": "ESLint configuration for TypeScript projects",
-  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "semantic-release": "^19.0.2"
+  },
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "test": "node test/test.test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JanSzewczyk/eslint-config-szum-tech.git"
-  },
+  "homepage": "https://github.com/JanSzewczyk/eslint-config-szum-tech#readme",
   "keywords": [
     "eslint",
     "react.js",
     "eslintconfig",
     "szum-tech"
   ],
-  "author": "Jan Szewczyk (Szum-Tech)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JanSzewczyk/eslint-config-szum-tech/issues"
-  },
-  "homepage": "https://github.com/JanSzewczyk/eslint-config-szum-tech#readme",
-  "devDependencies": {
-    "eslint": "^8.13.0"
-  },
+  "main": "index.js",
+  "name": "@szum-tech/eslint-config-szum-tech",
+  "version": "0.0.0-development",
   "peerDependencies": {
     "eslint": "^8.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JanSzewczyk/eslint-config-szum-tech.git"
+  },
+  "scripts": {
+    "test": "node test/test.test.js",
+    "semantic-release": "semantic-release --branches main"
   }
 }
