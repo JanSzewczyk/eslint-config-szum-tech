@@ -21,9 +21,12 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@szum-tech/eslint-config-szum-tech",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "peerDependencies": {
     "eslint": "^8.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
