@@ -42,8 +42,8 @@ module.exports = {
                 'no-unexpected-multiline': 'error', // eslint:recommended
                 // 'no-unreachable': 'error', // eslint:recommended
                 // 'no-unsafe-finally': 'error', // eslint:recommended
-                // 'no-unsafe-negation': 'off',
-                // 'use-isnan': 'error' // eslint:recommended
+                'no-unsafe-negation': 'off',
+                'use-isnan': 'error',
                 'valid-jsdoc': ['error', {
                         requireParamDescription: false,
                         requireReturnDescription: false,
