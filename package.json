@@ -5,6 +5,8 @@
   },
   "description": "ESLint configuration for TypeScript projects",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^8.13.0",
     "semantic-release": "^19.0.2"
   },
@@ -34,6 +36,6 @@
   },
   "scripts": {
     "test": "node test/test.test.js",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release"
   }
 }
