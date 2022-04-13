@@ -2,9 +2,9 @@ name: "🚀 publish"
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: '*'
+    branches: "*"
 
 jobs:
   quality:
@@ -13,32 +13,32 @@ jobs:
     strategy:
       matrix:
         node-version: [12.x, 14.x, 16.x]
-        os: [ ubuntu-latest, windows-latest ]
+        os: [ubuntu-latest, windows-latest]
 
-    steps: 
-    - name: 📚 checkout
-      uses: actions/checkout@v3
-    - name: 🟢 node
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run test
-      
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v3
+      - name: 🟢 node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run test
+
   publish:
     name: 🚀 publish
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
-    needs: [ quality ]
+    needs: [quality]
     steps:
-    - name: 📚 checkout
-      uses: actions/checkout@v3
-    - name: 🟢 node
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - run: npm run semantic-release
-      env: 
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+      - name: 📚 checkout
+        uses: actions/checkout@v3
+      - name: 🟢 node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PUBLISH_GITHUB_TOKEN }}

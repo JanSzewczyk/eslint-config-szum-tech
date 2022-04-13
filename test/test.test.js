@@ -1,5 +1,5 @@
-'use strict';
+"use strict";
 
-const assert = require('assert');
+const assert = require("assert");
 
-assert.strictEqual(1, 1)
+assert.strictEqual(1, 1);
