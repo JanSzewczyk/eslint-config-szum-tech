@@ -3,12 +3,12 @@ branches:
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
-  - "@semantic-release/changelog"
-  - "@semantic-release/npm"
+  - - "@semantic-release/changelog"
+    - changelogFile: "docs/CHANGELOG.md"
+  - - "@semantic-release/npm"
+    - assets:
+      - "docs/CHANGELOG.md"
   - "@semantic-release/git"
   - "@semantic-release/github"
-prepare:
-  - path: "@semantic-release/git"
-  - path: "@semantic-release/changelog"
-    changelogFile: "docs/CHANGELOG.md"
+
 
