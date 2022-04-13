@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v0.6.2...v1.0.0) (2022-04-13)
+
+
+### Features
+
+* **index.js:** added import configuration ([65086d4](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/65086d4aa3d16764e77056c45c231cfe60ea8f38))
+
+
+### BREAKING CHANGES
+
+* **index.js:** created eslint configuration
+
 ## [0.6.2](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v0.6.1...v0.6.2) (2022-04-12)
 
 ### Bug Fixes
