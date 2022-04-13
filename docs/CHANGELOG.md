@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.3...v1.1.4) (2022-04-13)
+
+
+### Bug Fixes
+
+* **release:** refactor config v4 ([298ea5a](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/298ea5a9e7a8ce1dc431963c88dfe30b1f343e7f))
+
 ## [1.1.3](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.2...v1.1.3) (2022-04-13)
 
 
