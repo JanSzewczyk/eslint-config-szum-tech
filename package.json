@@ -64,5 +64,5 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0"
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
