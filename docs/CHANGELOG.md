@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.0.0...v1.0.1) (2022-04-13)
+
+
+### Bug Fixes
+
+*  version ([34d8afd](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/34d8afdfd12eb6fc060d03f4a0efd2c1927689c7))
+
 # [1.0.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v0.6.2...v1.0.0) (2022-04-13)
 
 
