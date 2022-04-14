@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.9...v1.1.10) (2022-04-14)
+
+
+### Bug Fixes
+
+* **package.json:** fix max-len ([1b6b1ea](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/1b6b1ea89f01774ba7391be29f8f7c5391da72b6))
+
 ## [1.1.9](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.8...v1.1.9) (2022-04-14)
 
 
