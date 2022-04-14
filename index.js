@@ -9,8 +9,8 @@
 
 module.exports = {
   extends: [
-    "google",
     "react-app",
+    "google",
     "plugin:import/errors",
     "plugin:import/recommended",
     "plugin:import/typescript",
@@ -42,6 +42,8 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "import", "react-hooks"],
   rules: {
+    "max-len": 120,
+
     "import/no-unresolved": "error",
     "import/no-named-as-default-member": "off",
     "import/order": [
