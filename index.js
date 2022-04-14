@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "import", "react-hooks"],
   rules: {
-    "max-len": 120,
+    "max-len": ["warn", { code: 120 }],
 
     "import/no-unresolved": "error",
     "import/no-named-as-default-member": "off",
