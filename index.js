@@ -9,7 +9,6 @@
 
 module.exports = {
   extends: [
-    "react-app",
     "google",
     "plugin:import/errors",
     "plugin:import/recommended",
