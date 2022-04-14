@@ -33,11 +33,11 @@
   "main": "index.js",
   "name": "@szum-tech/eslint-config-szum-tech",
   "peerDependencies": {
-    "eslint": "^8.13.0",
-    "jest": "^27.5.1",
-    "prettier": "^2.6.2",
-    "react": "^17.0.2",
-    "typescript": "^4.6.3"
+    "eslint": ">=8.13",
+    "jest": ">=27.5",
+    "prettier": ">=2.6",
+    "react": ">=17.0",
+    "typescript": ">=4.6"
   },
   "publishConfig": {
     "access": "public"
