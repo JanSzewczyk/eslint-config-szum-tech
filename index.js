@@ -1,8 +1,16 @@
+/**
+ * Copyright (c) 2022-present, Szum-Tech
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+"use strict";
+
 module.exports = {
   extends: [
     "google",
     "react-app",
-    "react-app/jest",
     "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/recommended",
