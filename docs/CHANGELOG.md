@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.10...v1.1.11) (2022-04-14)
+
+
+### Bug Fixes
+
+* **package.json:** remove react-app config ([83a31fc](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/83a31fccfe7c6511ff6d25c8c7531272c48f1c36))
+
 ## [1.1.10](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.9...v1.1.10) (2022-04-14)
 
 
