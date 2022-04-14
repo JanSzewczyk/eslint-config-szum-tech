@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.5...v1.1.6) (2022-04-14)
+
+
+### Bug Fixes
+
+* **index.js:** remove jest extends ([cb753d7](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/cb753d738e2a616fb42293c542403ec061fc6dcc))
+
 ## [1.1.5](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.4...v1.1.5) (2022-04-13)
 
 
