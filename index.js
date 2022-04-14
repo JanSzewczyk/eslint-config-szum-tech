@@ -11,7 +11,6 @@ module.exports = {
   extends: [
     "google",
     "react-app",
-    "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/recommended",
     "plugin:import/typescript",
