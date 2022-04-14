@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.6...v1.1.7) (2022-04-14)
+
+
+### Bug Fixes
+
+* **package.json:** update peer dep ([dc1bc95](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/dc1bc958f2b9dd6c72c65111948db7c781a00ea9))
+
 ## [1.1.6](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.5...v1.1.6) (2022-04-14)
 
 
