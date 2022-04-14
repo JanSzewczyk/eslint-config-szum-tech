@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.7...v1.1.8) (2022-04-14)
+
+
+### Bug Fixes
+
+* **package.json:** remove prettier ([3406716](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/34067162de3b1421684ec7f460e7be33da652279))
+
 ## [1.1.7](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.6...v1.1.7) (2022-04-14)
 
 
