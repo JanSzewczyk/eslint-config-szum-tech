@@ -1,3 +1,20 @@
+# [1.2.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.13...v1.2.0) (2022-04-16)
+
+
+### Bug Fixes
+
+* **index.js:** change `arrow-spacing` role ([d250ae3](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/d250ae3b964963d32f875ee80a8626d3ff9572ac))
+* **index.js:** change `curly` role ([d04ced3](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/d04ced3124c77bb14c73a93502ecaa3c937c460b))
+* **index.js:** change `jsx-quotes` role ([6547a81](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/6547a810665ceeece618c21ac39e7eab74021007))
+* **index.js:** change `no-console` role ([7094166](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/709416610b8701c6691b0f69a6b3dc60595dd4ec))
+* **index.js:** change `object-curly-spacing` role ([6a791f4](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/6a791f43bff96ab94c230fe5dfe71793a8afeaac))
+* **index.js:** change `quotes` role ([7944886](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/7944886bb3b554f6be30859887a10daec15b6483))
+
+
+### Features
+
+* **index.js:** remove `google` extend library ([8edb6e0](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/8edb6e0eb5f83a7b0302383ea99dabb0269f30e2))
+
 ## [1.1.13](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.12...v1.1.13) (2022-04-16)
 
 
