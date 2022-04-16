@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.0...v1.2.1) (2022-04-16)
+
+
+### Bug Fixes
+
+* **index.js:** fix `arrow-spacing` role ([e1faea9](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/e1faea929ac80b08c840ba92f13c45fe028d4b14))
+
 # [1.2.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.13...v1.2.0) (2022-04-16)
 
 
