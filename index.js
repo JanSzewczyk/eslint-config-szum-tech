@@ -19,7 +19,6 @@ const allExtensions = [...jsExtensions, ...tsExtensions];
 module.exports = {
   extends: [
     "google",
-    "plugin:import/warnings",
     "plugin:jest/recommended",
     "plugin:jest-formatting/recommended",
   ],
