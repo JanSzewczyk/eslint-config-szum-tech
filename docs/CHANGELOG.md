@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.12...v1.1.13) (2022-04-16)
+
+
+### Bug Fixes
+
+* **index.js:** add `eslint:recommended` to extends configuration ([2e25e77](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/2e25e773a29f58836041d165aeace6efa9017f07))
+
 ## [1.1.12](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.1.11...v1.1.12) (2022-04-16)
 
 
