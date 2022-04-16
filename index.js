@@ -365,7 +365,7 @@ module.exports = {
     // recommended. ESLint doesn't support a *consistent* setting so
     // "always" is used.
     "arrow-parens": [2, "always"],
-    "arrow-spacing": [2, { before: false, after: true }],
+    "arrow-spacing": [2, { before: true, after: true }],
     "constructor-super": 2, // eslint:recommended
     "generator-star-spacing": [2, "after"],
     // 'no-class-assign': 0,
