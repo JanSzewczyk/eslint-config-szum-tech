@@ -46,7 +46,6 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 2018,
-    project: "tsconfig.json",
     sourceType: "module",
   },
   plugins: ["@typescript-eslint", "import", "react", "react-hooks"],
