@@ -10,7 +10,6 @@
 module.exports = {
   extends: [
     "google",
-    "plugin:import/errors",
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:import/warnings",
@@ -39,12 +38,17 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ["react", "@typescript-eslint", "import", "react-hooks"],
+  plugins: ["@typescript-eslint", "import", "react", "react-hooks"],
   rules: {
     "max-len": ["warn", { code: 120 }],
 
-    "import/no-unresolved": "error",
+    // import plugin
+    "import/default": 2,
+    "import/export": 2,
+    "import/named": 2,
+    "import/namespace": 2,
     "import/no-named-as-default-member": "off",
+    "import/no-unresolved": "error",
     "import/order": [
       "error",
       {
@@ -55,7 +59,6 @@ module.exports = {
           ["parent", "sibling"],
           "type",
         ],
-
         pathGroups: [
           {
             pattern: "react",
