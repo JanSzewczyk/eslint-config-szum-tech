@@ -19,6 +19,7 @@ const allExtensions = [...jsExtensions, ...tsExtensions];
 module.exports = {
   extends: [
     "google",
+    "eslint:recommended",
     "plugin:jest/recommended",
     "plugin:jest-formatting/recommended",
   ],
