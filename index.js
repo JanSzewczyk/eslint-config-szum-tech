@@ -308,7 +308,7 @@ module.exports = {
     // 'no-whitespace-before-property': 0,
     // 'nonblock-statement-body-position': 0,
     // 'object-curly-newline': 0,
-    "object-curly-spacing": 2,
+    "object-curly-spacing": [1, "always"],
     // 'object-property-newline': 0,
     "one-var": [
       2,
