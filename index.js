@@ -24,9 +24,6 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   settings: {
-    react: {
-      version: "detect",
-    },
     "import/extensions": allExtensions,
     "import/external-module-folders": ["node_modules", "node_modules/@types"],
     "import/parsers": {
@@ -40,14 +37,17 @@ module.exports = {
         alwaysTryTypes: true,
       },
     },
+    react: {
+      version: "detect",
+    },
   },
   parserOptions: {
-    project: "tsconfig.json",
-    ecmaVersion: 2018,
-    sourceType: "module",
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 2018,
+    project: "tsconfig.json",
+    sourceType: "module",
   },
   plugins: ["@typescript-eslint", "import", "react", "react-hooks"],
   rules: {
