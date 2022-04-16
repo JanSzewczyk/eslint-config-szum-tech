@@ -324,7 +324,7 @@ module.exports = {
     "padded-blocks": [2, "never"],
     // 'padding-line-between-statements': 0,
     "quote-props": [2, "consistent"],
-    quotes: [2, "single", { allowTemplateLiterals: true }],
+    quotes: [1, "double", { allowTemplateLiterals: true }],
     "require-jsdoc": [
       2,
       {
