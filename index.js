@@ -117,7 +117,7 @@ module.exports = {
     // 'complexity': 0,
     // 'consistent-return': 0
     // exception of simple, single-line if statements.
-    curly: [2, "multi-line"],
+    curly: [1, "multi-line"],
     // 'default-case': 0,
     // 'dot-location': 0,
     // 'dot-notation': 0,
