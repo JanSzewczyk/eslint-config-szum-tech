@@ -227,7 +227,7 @@ module.exports = {
     camelcase: [2, { properties: "never" }],
     // 'capitalized-comments': 0,
     "comma-dangle": [2, "always"],
-    "comma-spacing": 2,
+    "comma-spacing": [2, { before: false, after: true }],
     "comma-style": 2,
     "computed-property-spacing": 2,
     // 'consistent-this': 0,
