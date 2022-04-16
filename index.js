@@ -260,7 +260,7 @@ module.exports = {
         ignoredNodes: ["ConditionalExpression"],
       },
     ],
-    // 'jsx-quotes': 0,
+    "jsx-quotes": [1, "prefer-double"],
     "key-spacing": 2,
     "keyword-spacing": 2,
     // 'line-comment-position': 0,
