@@ -226,7 +226,7 @@ module.exports = {
     "brace-style": 2,
     camelcase: [2, { properties: "never" }],
     // 'capitalized-comments': 0,
-    "comma-dangle": [2, "always-multiline"],
+    "comma-dangle": [2, "always"],
     "comma-spacing": 2,
     "comma-style": 2,
     "computed-property-spacing": 2,
@@ -281,7 +281,6 @@ module.exports = {
     // 'max-params': 0,
     // 'max-statements': 0,
     // 'max-statements-per-line': 0,
-    // at the end of the line.
     // 'multiline-ternary': 0,
     "new-cap": 2,
     // 'new-parens': 0,
