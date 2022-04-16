@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.3...v1.2.4) (2022-04-16)
+
+
+### Bug Fixes
+
+* **index.js:** fix `no-undef` role ([327d777](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/327d7770e48cf7ad3e441f07f8c654c6f0338f02))
+
 ## [1.2.3](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.2...v1.2.3) (2022-04-16)
 
 
