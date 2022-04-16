@@ -60,7 +60,7 @@ module.exports = {
     // 'import/named': 'off',
     "import/named": "error",
     "import/namespace": "error",
-    "import/no-cycle": "warn",
+    "import/no-cycle": "off",
     "import/no-duplicates": "warn",
     "import/no-named-as-default": "warn",
     "import/no-named-as-default-member": "warn",
