@@ -7,11 +7,18 @@
 
 "use strict";
 
+// Omit `.d.ts` because 1) TypeScript compilation already confirms that
+// types are resolved, and 2) it would mask an unresolved
+// `.ts`/`.tsx`/`.js`/`.jsx` implementation.
+
+const tsExtensions = [".ts", ".tsx"];
+const jsExtensions = [".js", ".jsx"];
+
+const allExtensions = [...jsExtensions, ...tsExtensions];
+
 module.exports = {
   extends: [
     "google",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
     "plugin:import/warnings",
     "plugin:jest/recommended",
     "plugin:jest-formatting/recommended",
@@ -21,10 +28,15 @@ module.exports = {
     react: {
       version: "detect",
     },
+    "import/extensions": allExtensions,
+    "import/external-module-folders": ["node_modules", "node_modules/@types"],
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"],
+      "@typescript-eslint/parser": tsExtensions,
     },
     "import/resolver": {
+      node: {
+        extensions: allExtensions,
+      },
       typescript: {
         alwaysTryTypes: true,
       },
@@ -43,14 +55,17 @@ module.exports = {
     "max-len": ["warn", { code: 120 }],
 
     // import plugin
-    "import/no-unresolved": "error",
-    "import/named": "error",
-    "import/namespace": "error",
     "import/default": "error",
     "import/export": "error",
+    // TypeScript compilation already ensures that named imports exist in the referenced module
+    // 'import/named': 'off',
+    "import/named": "error",
+    "import/namespace": "error",
+    "import/no-cycle": "warn",
+    "import/no-duplicates": "warn",
     "import/no-named-as-default": "warn",
     "import/no-named-as-default-member": "warn",
-    "import/no-duplicates": "warn",
+    "import/no-unresolved": "error",
     "import/order": [
       "error",
       {
