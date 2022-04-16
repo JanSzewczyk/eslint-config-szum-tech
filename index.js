@@ -68,7 +68,7 @@ module.exports = {
     // 'no-await-in-loop': 0,
     // 'no-compare-neg-zero': 2, // eslint:recommended
     "no-cond-assign": 0, // eslint:recommended
-    // 'no-console': 2, // eslint:recommended
+    "no-console": 1, // eslint:recommended
     // 'no-constant-condition': 2, // eslint:recommended
     // 'no-control-regex': 2, // eslint:recommended
     // 'no-debugger': 2, // eslint:recommended
