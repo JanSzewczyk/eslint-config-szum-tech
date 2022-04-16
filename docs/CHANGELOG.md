@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.2...v1.2.3) (2022-04-16)
+
+
+### Bug Fixes
+
+* **index.js:** fix `comma-dangle` role ([17b7275](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/17b727552a14de54594c439f42d771340841ba73))
+
 ## [1.2.2](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.1...v1.2.2) (2022-04-16)
 
 
