@@ -43,12 +43,14 @@ module.exports = {
     "max-len": ["warn", { code: 120 }],
 
     // import plugin
-    "import/default": 2,
-    "import/export": 2,
-    "import/named": 2,
-    "import/namespace": 2,
-    "import/no-named-as-default-member": "off",
     "import/no-unresolved": "error",
+    "import/named": "error",
+    "import/namespace": "error",
+    "import/default": "error",
+    "import/export": "error",
+    "import/no-named-as-default": "warn",
+    "import/no-named-as-default-member": "warn",
+    "import/no-duplicates": "warn",
     "import/order": [
       "error",
       {
