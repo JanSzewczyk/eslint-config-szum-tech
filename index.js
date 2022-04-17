@@ -239,21 +239,21 @@ module.exports = {
     // 'id-length': 0,
     // 'id-match': 0,
     indent: [
-      2,
+      1,
       2,
       {
         CallExpression: {
-          arguments: 2,
+          arguments: 1,
         },
         FunctionDeclaration: {
           body: 1,
-          parameters: 2,
+          parameters: 1,
         },
         FunctionExpression: {
           body: 1,
-          parameters: 2,
+          parameters: 1,
         },
-        MemberExpression: 2,
+        MemberExpression: 1,
         ObjectExpression: 1,
         SwitchCase: 1,
         ignoredNodes: ["ConditionalExpression"],
