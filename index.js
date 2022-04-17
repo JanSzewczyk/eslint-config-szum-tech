@@ -73,7 +73,7 @@ module.exports = {
     // 'no-debugger': 2, // eslint:recommended
     // 'no-dupe-args': 2, // eslint:recommended
     // 'no-dupe-keys': 2, // eslint:recommended
-    // 'no-duplicate-case': 2, // eslint:recommended
+    "no-duplicate-case": 2, // eslint:recommended
     // 'no-empty': 2, // eslint:recommended
     // 'no-empty-character-class': 2, // eslint:recommended
     // 'no-ex-assign': 2, // eslint:recommended
