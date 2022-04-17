@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.6...v1.3.0) (2022-04-17)
+
+
+### Features
+
+* **configuration:** added plugins and roles ([5098d22](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/5098d223652ea57487d0d2527b5fa673aeb51c5e))
+
 ## [1.2.6](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.5...v1.2.6) (2022-04-17)
 
 
