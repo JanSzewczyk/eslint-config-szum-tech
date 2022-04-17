@@ -208,7 +208,7 @@ module.exports = {
     // 'handle-callback-err': 0,
     // 'no-buffer-constructor': 0,
     // 'no-mixed-requires': 0,
-    // 'no-new-require': 0,
+    "no-new-require": 2,
     // 'no-path-concat': 0,
     // 'no-process-env': 0,
     // 'no-process-exit': 0,
