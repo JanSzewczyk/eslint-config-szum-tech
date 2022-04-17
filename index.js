@@ -213,7 +213,7 @@ module.exports = {
     // 'no-process-env': 0,
     // 'no-process-exit': 0,
     // 'no-restricted-modules': 0,
-    // 'no-sync': 0,
+    "no-sync": 0,
 
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
