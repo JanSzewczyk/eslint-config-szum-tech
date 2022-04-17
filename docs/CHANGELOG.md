@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.4...v1.2.5) (2022-04-16)
+
+
+### Bug Fixes
+
+* **tsconfig.json:** remove file ([b39d7be](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/b39d7be3d72f207a04a70e43d2cf4bbc0abbd60b))
+
 ## [1.2.4](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.3...v1.2.4) (2022-04-16)
 
 
