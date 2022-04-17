@@ -20,7 +20,8 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:jest/recommended",
-    "plugin:jest-formatting/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
   ],
   parser: "@typescript-eslint/parser",
   settings: {
@@ -108,7 +109,6 @@ module.exports = {
     // Best Practices
     // http://eslint.org/docs/rules/#best-practices
     // --------------------------------------------
-
     // 'accessor-pairs': 0,
     // 'array-callback-return': 0,
     // 'block-scoped-var': 0,
@@ -197,7 +197,7 @@ module.exports = {
     "no-undef": 0, // eslint:recommended
     // 'no-undef-init': 0,
     // 'no-undefined': 0,
-    "no-unused-vars": [2, { args: "none" }], // eslint:recommended
+    "no-unused-vars": ["warn", { args: "none" }], // eslint:recommended
     // 'no-use-before-define': 0,
 
     // Node.js and CommonJS
@@ -223,7 +223,7 @@ module.exports = {
     "array-element-newline": 0, // eslint:recommended
     "block-spacing": [2, "never"],
     "brace-style": 2,
-    camelcase: [2, { properties: "never" }],
+    camelcase: [2, { properties: "always" }],
     // 'capitalized-comments': 0,
     "comma-dangle": [2, "never"],
     "comma-spacing": [2, { before: false, after: true }],
@@ -393,12 +393,17 @@ module.exports = {
     // 'template-curly-spacing': 0,
     "yield-star-spacing": [2, "after"],
 
-    // import plugin
+    // `@typescript-eslint` plugin roles:
+    // ---------------------------------------------
+    "@typescript-eslint/consistent-type-imports": 2,
+    "@typescript-eslint/no-unused-vars": 1,
+
+    // `import` plugin roles:
+    // ---------------------------------------------
     "import/default": "error",
     "import/export": "error",
     // TypeScript compilation already ensures that named imports exist in the referenced module
-    // 'import/named': 'off',
-    "import/named": "error",
+    "import/named": "off",
     "import/namespace": "error",
     "import/no-cycle": "off",
     "import/no-duplicates": "warn",
@@ -429,5 +434,34 @@ module.exports = {
         },
       },
     ],
+
+    // `jest` plugin roles:
+    // ---------------------------------------------
+    "jest/consistent-test-it": [
+      "error",
+      { fn: "test", withinDescribe: "test" },
+    ],
+    "jest/no-mocks-import": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-be-null": "warn",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+
+    // `react` plugin roles:
+    // ---------------------------------------------
+    "react/display-name": "off",
+    "react/jsx-curly-brace-presence": [
+      "warn",
+      { props: "always", children: "never" },
+    ],
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+
+    // `react-hooks` plugin roles:
+    // ---------------------------------------------
+    "react-hooks/exhaustive-deps": "warn",
   },
 };
