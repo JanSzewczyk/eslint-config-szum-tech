@@ -182,7 +182,7 @@ module.exports = {
     // Strict Mode
     // http://eslint.org/docs/rules/#strict-mode
     // -----------------------------------------
-    // 'strict': 0,
+    strict: 0,
 
     // Variables
     // http://eslint.org/docs/rules/#variables
