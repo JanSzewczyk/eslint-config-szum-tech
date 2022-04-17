@@ -120,7 +120,7 @@ module.exports = {
     // 'default-case': 0,
     // 'dot-location': 0,
     // 'dot-notation': 0,
-    // 'eqeqeq': 0,
+    eqeqeq: [1, "always"],
     "guard-for-in": 2,
     "no-alert": 1,
     "no-caller": 2,
