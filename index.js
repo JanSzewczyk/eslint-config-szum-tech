@@ -122,7 +122,7 @@ module.exports = {
     // 'dot-notation': 0,
     // 'eqeqeq': 0,
     "guard-for-in": 2,
-    // 'no-alert': 0,
+    "no-alert": 1,
     "no-caller": 2,
     // 'no-case-declarations': 2, // eslint:recommended
     // 'no-div-regex': 0,
