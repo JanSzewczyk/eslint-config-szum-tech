@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.0...v1.3.1) (2022-04-17)
+
+
+### Bug Fixes
+
+* **configuration:** remove `jest/prefer-to-be-null` role ([22cd55d](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/22cd55d4741cfce707c275984f756010aa38f0df))
+
 # [1.3.0](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.6...v1.3.0) (2022-04-17)
 
 
