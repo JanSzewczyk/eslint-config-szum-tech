@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.5...v1.2.6) (2022-04-17)
+
+
+### Bug Fixes
+
+* **configuration:** change `indent` role ([db3585a](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/db3585aec732b3616cbda8a16461e5e00edb0ed7))
+
 ## [1.2.5](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.2.4...v1.2.5) (2022-04-16)
 
 
