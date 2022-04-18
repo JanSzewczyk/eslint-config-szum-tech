@@ -134,7 +134,7 @@ module.exports = {
     "no-extend-native": 2,
     "no-extra-bind": 2,
     // 'no-extra-label': 0,
-    // 'no-fallthrough': 2, // eslint:recommended
+    "no-fallthrough": "warn",
     // 'no-floating-decimal': 0,
     // 'no-global-assign': 0,
     // 'no-implicit-coercion': 0,
