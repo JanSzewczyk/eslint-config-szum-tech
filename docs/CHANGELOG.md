@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.1...v1.3.2) (2022-04-17)
+
+
+### Bug Fixes
+
+* **configuration:** change `no-trailing-spaces` role ([80e3dc8](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/80e3dc81d089de4fa6d06ddb6753b166c1d5cdd6))
+
 ## [1.3.1](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.0...v1.3.1) (2022-04-17)
 
 
