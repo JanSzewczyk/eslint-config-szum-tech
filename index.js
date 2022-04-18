@@ -114,7 +114,7 @@ module.exports = {
     // 'block-scoped-var': 0,
     // 'class-methods-use-this': 0,
     // 'complexity': 0,
-    // 'consistent-return': 0
+    "consistent-return": "warn",
     // exception of simple, single-line if statements.
     curly: [1, "multi-line"],
     // 'default-case': 0,
