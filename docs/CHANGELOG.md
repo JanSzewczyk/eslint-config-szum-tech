@@ -1,3 +1,10 @@
+## [1.3.3](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.2...v1.3.3) (2022-04-18)
+
+
+### Bug Fixes
+
+* **configuration:** change `no-empty-pattern` role ([5d20bf2](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/5d20bf27ae170a38f240fa2c1afb977d98fda496))
+
 ## [1.3.2](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.1...v1.3.2) (2022-04-17)
 
 
