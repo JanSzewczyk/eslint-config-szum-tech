@@ -127,7 +127,7 @@ module.exports = {
     // 'no-case-declarations': 2, // eslint:recommended
     // 'no-div-regex': 0,
     // 'no-else-return': 0,
-    // 'no-empty-function': 0,
+    "no-empty-function": "warn",
     "no-empty-pattern": "error",
     // 'no-eq-null': 0,
     // 'no-eval': 0,
