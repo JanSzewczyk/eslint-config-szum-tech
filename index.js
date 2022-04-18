@@ -128,7 +128,7 @@ module.exports = {
     // 'no-div-regex': 0,
     // 'no-else-return': 0,
     // 'no-empty-function': 0,
-    // 'no-empty-pattern': 2, // eslint:recommended
+    "no-empty-pattern": "error",
     // 'no-eq-null': 0,
     // 'no-eval': 0,
     "no-extend-native": 2,
