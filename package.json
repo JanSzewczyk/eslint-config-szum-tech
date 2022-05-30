@@ -11,13 +11,8 @@
     "@semantic-release/github": "^8.0.4",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@types/jest": "^27.4.1",
-    "eslint": "^8.13.0",
-    "jest": "^28.1.0",
     "prettier": "^2.6.2",
-    "react": "^17.0.2",
-    "semantic-release": "^19.0.2",
-    "typescript": "^4.6.3"
+    "semantic-release": "^19.0.2"
   },
   "files": [
     "index.js"
@@ -33,11 +28,10 @@
   "main": "index.js",
   "name": "@szum-tech/eslint-config-szum-tech",
   "peerDependencies": {
-    "eslint": ">=8.13",
-    "jest": ">=27.5",
+    "eslint": ">=8.16",
     "prettier": ">=2.6",
-    "react": ">=17.0",
-    "typescript": ">=4.6"
+    "react": ">=18.1",
+    "typescript": ">=4.7"
   },
   "publishConfig": {
     "access": "public"
@@ -57,7 +51,7 @@
     "@typescript-eslint/parser": "^5.19.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jest": "^26.4.5",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0"
   },
