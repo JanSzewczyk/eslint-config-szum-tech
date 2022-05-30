@@ -263,7 +263,7 @@ module.exports = {
     "key-spacing": 2,
     "keyword-spacing": 2,
     // 'line-comment-position': 0,
-    "linebreak-style": 2,
+    "linebreak-style": "off",
     // 'lines-around-comment': 0,
     // 'max-depth': 0,
     "max-len": [
