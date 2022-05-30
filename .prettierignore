@@ -1,0 +1,5 @@
+# dependencies
+/.vscode
+/.idea
+/node_modules
+/docs

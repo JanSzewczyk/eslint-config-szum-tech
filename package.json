@@ -49,7 +49,8 @@
   "scripts": {
     "test": "node test/test.test.js",
     "semantic-release": "semantic-release",
-    "format": "prettier --write ."
+    "prettier": "prettier .",
+    "prettier:write": "prettier --write ."
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.19.0",
