@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.4...v1.3.5) (2022-05-30)
+
+
+### Bug Fixes
+
+* **deps:** fix deps ([770979d](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/770979d4c57102fd4c2c3192ed39541755320e76))
+
 ## [1.3.4](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.3...v1.3.4) (2022-05-30)
 
 
