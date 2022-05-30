@@ -1,3 +1,11 @@
+## [1.3.4](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.3...v1.3.4) (2022-05-30)
+
+
+### Bug Fixes
+
+* **configuration:** set `off` `linebreak-style` role ([514cd76](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/514cd763c835c4ea54ba1a8b12eec41815d72ef2))
+* **configuration:** set `off` `require-jsdoc` role ([ba45188](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/ba45188581b19ab712c959a0cdfcf28f422bdb9b))
+
 ## [1.3.3](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.2...v1.3.3) (2022-04-18)
 
 
