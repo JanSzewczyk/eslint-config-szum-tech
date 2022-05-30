@@ -323,16 +323,7 @@ module.exports = {
     // 'padding-line-between-statements': 0,
     "quote-props": [2, "consistent"],
     quotes: [1, "double", { allowTemplateLiterals: true }],
-    "require-jsdoc": [
-      2,
-      {
-        require: {
-          FunctionDeclaration: true,
-          MethodDefinition: true,
-          ClassDeclaration: true,
-        },
-      },
-    ],
+    "require-jsdoc": "off",
     semi: 2,
     "semi-spacing": 2,
     // 'semi-style': 0,
