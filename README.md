@@ -93,3 +93,7 @@ extends:
   }
 }
 ```
+
+## License
+
+MIT © Szum-Tech
