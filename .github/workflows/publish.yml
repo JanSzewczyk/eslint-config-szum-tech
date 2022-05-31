@@ -29,7 +29,7 @@ jobs:
         run: npm run test
 
   publish:
-    name: 🚀 publish
+    name: 🚀 Publish
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [ test ]
