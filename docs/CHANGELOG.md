@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.5...v1.3.6) (2022-05-31)
+
+
+### Bug Fixes
+
+* **gh-action:** fix code quality check action ([0fc3199](https://github.com/JanSzewczyk/eslint-config-szum-tech/commit/0fc3199dd006cc8b369baf84e2c43eeb0e27ef6e))
+
 ## [1.3.5](https://github.com/JanSzewczyk/eslint-config-szum-tech/compare/v1.3.4...v1.3.5) (2022-05-30)
 
 
